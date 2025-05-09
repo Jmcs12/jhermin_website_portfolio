@@ -17,12 +17,16 @@ body {
     h1.display-4 {
       font-size: 2rem;
     }
-.transition {
+  }
+
+.card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 15px; /* rounded corners */
+  overflow: hidden;
 }
 
-.hover-shadow:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(255, 0, 0, 0.3); /* red shadow effect */
 }
-  }
+  
