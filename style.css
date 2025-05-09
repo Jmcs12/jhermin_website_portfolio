@@ -21,12 +21,11 @@ body {
 
 .card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border-radius: 15px; /* rounded corners */
+  border-radius: 15px;
   overflow: hidden;
 }
 
 .card:hover {
   transform: scale(1.03);
-  box-shadow: 0 10px 20px rgba(255, 0, 0, 0.3); /* red shadow effect */
+  box-shadow: 0 10px 20px rgba(255, 0, 0, 0.3);
 }
-  
