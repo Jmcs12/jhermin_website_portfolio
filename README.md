@@ -2,4 +2,4 @@
 
 ## My Website
 
-https://jmcs12.github.io/jhermin_website_portfolio/#portfolio
+https://jmcs12.github.io/jhermin_website_portfolio
